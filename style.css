@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card_api {
+    text-align: center;
+    background: #ddd;
+    width: 50%;
+    height: 65%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 10px 0;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.card_information {
+    margin-top: 20px;
+}
+
+.card_information h1 {
+    margin-bottom: 20px;
+}
+.card_click {
+    margin-top: 30px;
+}
+
+button {
+ padding: 10px 35px;
+background: red;
+color: white;
+border: none;
+margin-left: 20px;
+text-transform:capitalize;
+font-size: 15px;
+transition: none .4s;
+cursor: pointer;
+}
+button:hover {
+     background: black;
+}
+.card_click .address {
+    background: blue;
+}
+.new_user {
+    background: green;
+    margin-top: 30px;
+}

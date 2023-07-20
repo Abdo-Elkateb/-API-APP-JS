@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>API</title>
-  </head>
-  <body>
-    <!-- body -->
 
-    <section class="card_api">
-      <div class="card_im">
-        <img id="cardImage" src="./IMG_20221212_224613_492.jpg" alt="image" />
-      </div>
-      <div class="card_information">
-        <h1 id="user">Abdo elkateb</h1>
-        <h2 id="email">abdoelkateb.dev@gmail.com</h2>
-        <h5 id="info"></h5>
-      </div>
-      <div class="card_click">
-        <button id="phone class="phone"> phone</button>
-        <button id="address" class="address"> address</button>
-      </div>
-      <button class="new_user" id="showNewUser">show new user</button>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>API</title>
+</head>
 
-    <script src="./main.js"></script>
-  </body>
+<body>
+  <!-- body -->
+
+  <section class="card_api">
+    <div class="card_im">
+      <img id="cardImage" src="./image_users/alexander-hipp-iEEBWgY_6lA-unsplash.jpg" alt="image" />
+    </div>
+    <div class="card_information">
+      <h1 id="user">Abdo elkateb</h1>
+      <h2 id="email">abdoelkateb.dev@gmail.com</h2>
+      <h3 id="info" class="info"></h3>
+    </div>
+    <div class="card_click">
+      <button id="phone" class="btn phone" data-info="phone" > phone</button>
+      <button id="address" class="btn address" data-info="address"> address</button>
+    </div>
+         <button class="new_user btn" id="showNewUser">show new user</button>
+  </section>
+
+  <script src="./main.js"></script>
+</body>
+
 </html>

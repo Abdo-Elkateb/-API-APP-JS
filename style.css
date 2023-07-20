@@ -27,9 +27,8 @@ img {
     height: 150px;
     border-radius: 50%;
 }
-
-.card_information {
-    margin-top: 20px;
+h3 {
+    margin-top:5px;
 }
 
 .card_information h1 {
@@ -37,22 +36,37 @@ img {
 }
 .card_click {
     margin-top: 30px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    justify-content: center;
+  
 }
 
-button {
+
+.btn {
  padding: 10px 35px;
-background: red;
-color: white;
-border: none;
-margin-left: 20px;
-text-transform:capitalize;
-font-size: 15px;
-transition: none .4s;
-cursor: pointer;
+ background: red;
+ color: white;
+ border: none;
+ margin-left: 20px;
+ text-transform:capitalize;
+ font-size: 15px;
+ cursor: pointer;
+ transition:all .4s;
+ -webkit-transition:all .4s;
+ -moz-transition:all .4s;
+ -ms-transition:all .4s;
+ -o-transition:all .4s;
 }
-button:hover {
+/* .btn:hover  {
      background: black;
+} */
+.card_click .btn:hover, 
+.new_user :hover  {
+   background: black;
 }
+  
+
 .card_click .address {
     background: blue;
 }
